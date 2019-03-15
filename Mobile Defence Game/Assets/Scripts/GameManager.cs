@@ -119,6 +119,7 @@ public class GameManager : MonoBehaviour {
         nextRound();
         select(1);
         lifeText.text = life.ToString();
+        Debug.Log("게임이 시작되었습니다.");
 	}
 	
 	void Update () {
